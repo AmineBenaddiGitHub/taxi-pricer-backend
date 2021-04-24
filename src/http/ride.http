@@ -1,0 +1,15 @@
+# ride API
+
+###
+# baseURL
+@baseURL = http://localhost:3000
+
+###
+# Calculate Ride Price
+POST {{baseURL}}/ride
+Content-Type: application/json
+
+{
+    "distance": 2,
+	startTime": "2020-06-19T14:11:17.031Z"
+}
